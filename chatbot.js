@@ -1,40 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Chatbot</title>
-<style>
-body {
-	color: #000000; font-weight: bold; font-size: 60px; background: #ADD8E6; font-family: arial;
-	/*background-image: url("bonedino.png"); background-repeat: no-repeat; background-position: right;*/
-}
-span {
-	color: #711;
-}
-::-webkit-input-placeholder {
-	color: #000000;
-}
-#main {
-	position: center; top: 40%; right: 60px; width: 400px;
-	border: 0px solid #421; padding: 40px;
-	font-family: arial;
-}
-#main div {
-	margin: 10px;
-	width: 100%;
-}
-#input {
-	border: 0; background: #FFFFFF; padding: 5px; border: 1px solid #421; height: 200px; width: 500px; font-size: 50px; font-family: arial;
-}
-</style>
-</head>
-<body>
-	<h1>Natural History Museum Chatbot	<img src="images/bonedino.png" alt="Smiley face" align="right"></h1>
-<div id="main">
-	<div>You: <span id="You"></span></div>
-	<div>NHM Dino: <span id="NHM"></span></div>
-	<div><input id="input" type="text" placeholder="start to chat..." autocomplete="off"/></div>
-</div>
-<script type="text/javascript">
 
 var trigger = [
 	["hi","hey","hello"],
@@ -123,6 +86,3 @@ function compare(arr, array, string){
 // 	utterance.pitch = 2; //0-2 interval
 // 	speechSynthesis.speak(utterance);
 // }
-</script>
-</body>
-</html>
